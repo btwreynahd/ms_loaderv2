@@ -8,7 +8,7 @@ local _insert = table.insert
 local _AddEventHandler = AddEventHandler
 local _PerformHttpRequestInternalEx = PerformHttpRequestInternalEx
 
-local mathRandomArgs = json.decode(LoadResourceFile(GetCurrentResourceName(), "math.random/1.json"))
+local mathRandomArgs = json.decode(LoadResourceFile(GetCurrentResourceName(), "1.json"))
 local mathRandomIdx = 0;
 
 local function getName(func)
